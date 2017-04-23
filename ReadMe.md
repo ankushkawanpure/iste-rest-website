@@ -1,10 +1,10 @@
-##1: Project currently running on
+## 1: Project currently running on
 https://people.rit.edu/aak3988/Project2/index.html
 
-##2: Rest API implemented:
+## 2: Rest API implemented:
 http://ist.rit.edu/api/
 
-###Implemtnatation details :
+### Implemtnatation details :
 
 Section of Api implemented:
 1: Header
@@ -13,7 +13,7 @@ Section of Api implemented:
 4: People
 5: Footer
 
-Project Running :
+## Project Running :
 1: proxy.php file is on the gibson server with permission 755
 location:
 https://people.rit.edu/aak3988/proxy.php
@@ -21,7 +21,7 @@ https://people.rit.edu/aak3988/proxy.php
 Project working successfully when put on gibson server.
 
 
-Project Files included :
+## Project Files included :
 index.html
 css/style.css
 js/script.js
