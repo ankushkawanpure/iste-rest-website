@@ -1,0 +1,497 @@
+/* css reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'open sans', 'Helvetica',sans-serif;
+}
+
+/*Common style*/
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+h2 {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    line-height: 4rem;
+    margin-bottom:20px;
+}
+h3 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    line-height: 2.5em;
+    margin-bottom:20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-bottom:20px;
+}
+
+h5 {
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin-bottom:20px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 2em;
+    text-shadow:none;
+    color: #000000;
+}
+
+.content{
+    display:block;
+    margin:0 auto;
+    overflow:hidden;
+    padding:50px 50px;
+    width:100%;
+    max-width: 80%;
+    text-align: center;
+}
+
+section{
+    background:#FFFFFF;
+    background-repeat: no-repeat;
+    padding:0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper{
+    color:#000;
+    text-shadow:none;
+}
+
+.overlay{
+    position: relative;
+    z-index: -1;
+}
+
+.overlay:after{
+    background:rgba(0, 0, 0, 0.6);
+    content: "";
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    position: absolute;
+
+}
+
+
+/*Column sectiob*/
+.vsection aside {
+    width: 33%;
+    float: left;
+    text-align: center;
+
+}
+
+.vsection aside > div {
+    padding: 0 20px;
+}
+
+.vsection aside > img {
+    width: 100px;
+}
+
+.vsection aside > h3 {
+    font-weight: 300;
+    font-size: 1.6em;
+    line-height: 1em;
+    margin: 0 0 15px 0;
+
+}
+.vsection aside  > h5 {
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 0 1em 0;
+    text-transform: none;
+}
+
+.vsection aside > div  p {
+    text-align: justify;
+}
+
+/*Expanding panel*/
+.panel .readmore {
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.panel .readmore:hover {
+    color: #555555;
+    text-decoration: underline;
+}
+
+.panel .readmore::before {
+    content: '+ ';
+}
+
+.panel.open .readmore::before {
+    content: '-';
+}
+
+.panel .panel_container {
+    overflow: hidden;
+}
+
+.panel .panel_content {
+    padding: 1px 0;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+a.btn {
+    border-bottom: 3px solid #F36E21;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    display:inline-block;
+    text-align:center;
+    padding: 1.4em 4em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:0;
+    position: relative;
+    outline: none;
+}
+a.btn:hover{
+    color: #F36E21;
+}
+
+/*Common style Ends*/
+
+
+
+
+
+/* Navigation Section*/
+header{
+    width : 100%;
+    background: #111;
+}
+
+.logo {
+    border-bottom: solid 1px #F36E21;
+    padding: 10px 0;
+}
+
+.logo a img{
+    height: 45px;
+    width: 500px;
+    display: block;
+    transform: none;
+}
+
+.nav {
+    height : 45px;
+    border-bottom: solid 1px #F36E21;
+}
+
+.nav ul {
+    padding: 0;
+    margin: auto;
+}
+
+.nav ul li {
+    list-style: none;
+    float: left;
+}
+
+.nav ul li a{
+    align-content: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: gray;
+}
+
+.nav ul li a:hover{
+
+    background: black;
+    color: #ffffff;
+}
+/* Navigation Section Ends*/
+
+
+/*Top Section* */
+#top p{
+    color: #FFFFFF;
+}
+
+#top {
+    color: #FFFFFF;
+    background:url("../img/background/abstract.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#top .content{
+    padding-top:13%;
+}
+
+#top b {
+    color: #F36E21;
+}
+/*Top Section Ends */
+
+
+
+/* About Section */
+#about {
+    min-height: 80%;
+    min-width: 100%;
+    overflow:  auto;
+}
+
+#about q {
+    font-size: 1.1rem;
+    color: #F36E21;
+
+}
+/* About Section Ends*/
+
+
+/*Degree section */
+#ugdegree {
+    min-height: 80%;
+    background:url("../img/background/computer.jpg");
+}
+
+#ug {
+    color: #FFFFFF;
+    display: block;
+}
+
+
+#gdegree {
+    display: block;
+    min-height: 80%;
+
+}
+
+#gdegree h3, #ugdegree h3 {
+    color : #F36E21;
+}
+
+#certificate {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#certificate ul li{
+    list-style: none;
+    text-align: center;
+}
+
+#certificate h3 {
+    margin: 0;
+    color: #F36E21;
+}
+
+#g {
+    color: #000000;
+}
+/*Degree End*/
+
+
+
+/*People*/
+#people {
+    background:url("../img/background/chains.jpg");
+    background-size: cover;
+    min-height: 80%;
+    color: #FFFFFF;
+}
+
+/*Image gallery*/
+#gallery > h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+
+}
+#gallery > p {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+#gallery {
+    font-size: 0;
+}
+
+#gallery a {
+    font-size: 16px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+#gallery a:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+
+#gallery a:hover img {
+    transform: scale(1.15);
+}
+
+#gallery figure {
+    margin: 0;
+}
+
+#gallery img {
+    display: block;
+    border: none;
+    margin: 0 auto;
+    background: #FFFFFF;
+    height: 150px;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform .2s ease-in-out;
+}
+
+#gallery div {
+    border: none;
+    max-width: 100%;
+    margin: 0;
+    display: block;
+    transition: transform .2s ease-in-out;
+}
+
+#gallery .grid-overlay {
+
+    display:block;
+    margin: auto;
+    width:100%;
+    background: #f1f1f1;
+    padding:0 30px;
+    height: 100%;
+    font-size:18px;
+    box-sizing:border-box;
+    color: #000000;
+    text-align:center;
+    opacity:0;
+
+}
+#gallery .grid-overlay {
+    opacity:0.8;
+}
+
+#gallery h3 {
+    color: #000000;
+}
+
+
+/*Section Emp Map*/
+#empmap {
+    min-height: 80%;
+    width :100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+#empmap h2 {
+    padding :0;
+    margin: 25px;
+}
+
+#empmap div iframe {
+    height: 560px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+#empmap > div {
+    min-height: 80%;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    margin: auto;
+}
+/*Section Emp Map end*/
+
+
+
+/*Footer Section*/
+#footer .content{
+
+    display:block;
+    padding:50px 50px;
+    width:100%;
+    max-width: 90%;
+    margin:0 auto;
+    overflow:hidden;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#footer {
+    background: url("../img/background/technology.jpg");
+}
+
+#footer h2 {
+    color: #F36E21;
+}
+
+
+#footer p {
+    color: #FFFFFF;
+
+}
+
+#footer-content > aside:nth-child(1),
+#footer-content > aside:nth-child(3) {
+    width: 25%;
+    padding: 20px;
+}
+
+#footer-content > aside:nth-child(2) {
+    width: 40%;
+    text-align: center;
+}
+
+#social a {
+
+    color: #0000FF;
+    cursor: pointer;
+}
+
+
+#footer-content {
+    color: #FFFFFF;
+    width: 100%;
+}
+
+#footer-content a{
+    color: #F36E21;
+    cursor: pointer;
+}
+
+
+
+
