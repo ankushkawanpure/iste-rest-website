@@ -7,23 +7,17 @@ http://ist.rit.edu/api/
 ### Implemtnatation details :
 
 Section of Api implemented:
-1: Header
-2: About
-3: Degree
-4: People
-5: Footer
+1. Header
+2. About
+3. Degree
+4. People
+5. Footer
 
 ## Project Running :
-1: proxy.php file is on the gibson server with permission 755
-location:
+1. proxy.php file is on the gibson server with permission 755
+
+### Location:
 https://people.rit.edu/aak3988/proxy.php
-2: Project works perfectly on chrome, firefox, IE9+, safari.
+2. Project works perfectly on chrome, firefox, IE9+, safari.
+
 Project working successfully when put on gibson server.
-
-
-## Project Files included :
-index.html
-css/style.css
-js/script.js
-/img/*
-proxy.php
