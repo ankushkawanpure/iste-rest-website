@@ -1,25 +1,8 @@
 1: Project currently running on
 https://people.rit.edu/aak3988/Project2/index.html
 
-Jquery Plugin Used:
-
-1: Outdatedbrowser.js
-Jquery plugin to check the weather the browse is old or not.
-If browser is old Red lable popup in the top section of browser window.
-
-2: Steller.js
-For Parallax effect in background.
-
-3: Colobox:
-Jquery light box plugin to display inline and image content for gallery.
-
-4: Sticky:
-Jquery plugin to stick some portion of the webpage to particular location
-Used to stick navigation bar to the top.
-
-5:GlassyWorms:
-Jquery Homescreen animation plugin
-
+2: Rest API implemented:
+http://ist.rit.edu/api/
 
 Implemtnatation details :
 
