@@ -1,10 +1,10 @@
-1: Project currently running on
+##1: Project currently running on
 https://people.rit.edu/aak3988/Project2/index.html
 
-2: Rest API implemented:
+##2: Rest API implemented:
 http://ist.rit.edu/api/
 
-Implemtnatation details :
+###Implemtnatation details :
 
 Section of Api implemented:
 1: Header
